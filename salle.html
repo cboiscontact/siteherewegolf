@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Herewegolf, la salle</title>
+</head>
+<body>
+    <!-- barre de navigation -->
+    <header class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a title="vers accueil" class="navbar-brand" href="./accueil.html" >
+                <img src="logo.webp" alt="logo here we golf" height="60px">
+            </a>
+            <!-- burger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- here we golf -->
+                <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Here we golf
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a class="dropdown-item" href="./accueil.html">
+                        Accueil
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="./apropos.html">
+                            Qui sommes-nous ?
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="./contact.html">
+                            Nous contacter
+                        </a>
+                    </li>
+                </ul>
+                </li>
+                <!-- la salle -->
+                <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    La salle
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                    <a class="dropdown-item" aria-current="page" href="./salle.html">
+                        Présentation
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="./reservation.html">
+                        Réservation
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="./offres.html">
+                        Nos offres
+                    </a>
+                </li>
+                </ul>
+                </li>
+                <!-- la boutique -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        La boutique
+                    </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                    <a class="dropdown-item" href="./boutique.html">
+                        Nos produits
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="./installation.html">
+                        Installation
+                    </a>
+                </li>
+                </ul>
+                </li>
+                <!-- mon compte -->
+                <li class="nav-item">
+                <a class="nav-link disabled">
+                    Mon compte
+                </a>
+                
+            </ul>
+            <!-- barre de recherche -->
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="rechercher" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">
+                    Rechercher
+                </button>
+            </form>
+            </li>                
+            </div>
+        </div>
+    </nav>
+    <br><br><br>
+    </header>
+    <!------------------------------------------>
+    <!--           page                       -->
+    <!------------------------------------------>        
+    <main class="container-fluid">
+        <!-- la salle -->
+        <div class="container-fluid">
+            <div class="card bg-dark text-light">
+                <img src="./salle03.webp" class="card-img card-overlay opacity-75" alt="image salle">
+                <div class="card-img-overlay">
+                    <h1 class="card-title text-center text-uppercase">
+                        la salle
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <!-- nos simulateurs -->
+        <article class="container-fluid">
+            <div class="card-fluid m-4">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <img src="./salle01.webp" class="card-img" alt="image salle">
+                    </div>
+                
+                    <div class="col-md-4 align-self-center">
+                        <div class="body p-4">
+                            <h2 class="card-title text-center text-success text-uppercase">
+                            nos simulateurs
+                            </h2>
+                            <p class="card-text text-center">
+                                Que vous soyez golfeur expérimenté ou parfait novice, trois postes de simulations vous attendent ! Le prêt de matériel est gratuit, mais vous pouvez amener votre propre matériel afin de perfectionner votre swing.           
+                            </p>
+                            <p class="card-text text-center">
+                                <a href="./reservation.html" class="btn btn-outline-success btn-bottom">Réserver</a>      
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </article>
+        <!-- présentation des offres -->
+        <article class="container-fluid mt-5">
+            <div class="col-md-8 offset-md-2 text-center">
+                <h2 class="text-success text-uppercase">
+                    nos offres
+                </h2>
+                <p>             
+                    Des tarifs accessibles au plus grand nombre, avec des formules pour tous les goûts.
+                </p>
+                <p>
+                    Vous pourrez ainsi jouer sur un practice classique ou bien lancer l'un des 100 000 parcours virtuels à disposition, parmi les plus connus comme Augusta ou bien le Old Course de Saint Andrews ! L'occasion rêvée d'essayer et comprendre pourquoi tant de personnes sont passionnées par cette petite balle blanche !
+                </p>
+                <p class="fw-bold">
+                    Ouvert du lundi au samedi, sur réservation uniquement.
+                </p>
+                <p>
+                    <a href="./offres.html" class="btn btn-outline-success">
+                        Nos offres
+                    </a>
+                </p>
+            </div>
+        </article>
+        <!-- les avis -->
+        <article class="container mt-5">
+            <div class="text-center">
+                <img src="./avis.webp" alt="avis avec étoiles">
+                <p class="text-success">
+                    Nos clients sont satisfaits et ils le font savoir.
+                    <br>
+                    <a href="https://www.google.com/search?hl=fr-FR&gl=fr&q=Here+We+Golf,+1+Rue+Delacroix,+31000+Toulouse&ludocid=5498537868530896702" title="vers google" class="text-success">Voir tous nos avis</a>
+                </p>                
+            </div>
+            <div class="card-group card-text text-center fst-italic">
+                <div class="card card-text text-light bg-success border border-success rounded-3 m-3 p-3">
+                    <h5 class="card-title card-text text-uppercase">arnaud o.</h5>
+                    <p>
+                        L'endroit idéal pour aller s’entraîner quand on manque de temps pour aller sur un vrai golf ou que les conditions sont pas top. En plus de ça le responsable est très sympa et toujours de bon conseils pour trouver un parcours à l'autre bout du monde et le pro qui donne des cours sur place est très pédagogue !                                                   
+                    </p>
+                </div>
+                <div class="card card-text text-light bg-success border border-success rounded-3 m-3 p-3">
+                    <h5 class="card-title card-text text-uppercase">anne l.</h5>
+                    <p>
+                        C’est vraiment génial pour s’entraîner. On a les distances exactes pour chaque club aussi bien grand jeu que petit jeu mais il y a aussi des parcours à faire ce qui est très ludique. Ambiance très sympa avec Damien qui est toujours à l’écoute et de bon conseil. On peut aussi prendre des cours avec le pro qui est top. Je recommande chaudement !
+                    </p>                
+                </div>
+                <div class="card card-text text-light bg-success border border-success rounded-3 m-3 p-3">
+                    <h5 class="card-title card-text text-uppercase">jean-pierre c.</h5>
+                    <p>
+                        Super accueil, matériel irréprochable, excellente option pour travailler les fondamentaux et se régaler en découvrant des centaines de parcours sur lesquels on ira peut-être jamais. Léo le pro est un excellent pédagogue très efficace pour cerner les problèmes et en venir à bout rapidement. Très bon rapport qualité prix avec beaucoup de choix dans les formules d’inscriptions.                        
+                    </p>                    
+                </div>                        
+            </div>
+        </article>              
+    </main>
+    <!-- mentions légales -->
+    <footer class="container-fluid text-muted mt-5">
+        <ul class="m-5 nav justify-content-center">
+            <ul class="m-4" style="list-style-type:none;">
+                <li>
+                    <h5 class="text-uppercase">la boutique</h5>
+                </li>
+                <li>
+                    <a class="nav-link text-muted disabled">Venez nous rencontrer</a>
+                </li>
+                <li>
+                    <a class="nav-link text-muted disabled">1 rue Delacroix, 31 000 Toulouse</a>
+                </li>
+            </ul>
+            <ul class="m-4" style="list-style-type:none;">
+                <li>
+                    <h5 class="text-uppercase">informations utiles</h5>
+                </li>
+                <li>
+                    <a href="./faq.html" class="nav-link text-muted text-uppercase">faq</a>
+                </li>
+                <li>
+                    <a href="./cgv.html" class="nav-link text-muted text-uppercase">cgv</a>
+                </li>
+                <li>
+                    <a href="./mentionslégales.html" class="nav-link text-muted">Mentions légales</a>
+                </li>
+                <li>
+                    <a href="./discretion.html" class="nav-link text-muted">Politique de confidentialité</a>
+                </li>
+            </ul>
+            <ul class="m-4" style="list-style-type:none;">
+                <li>
+                    <h5 class="text-uppercase">nous contacter</h5>
+                </li>
+                <li>
+                    <a class="nav-link disabled">Tél : 06 77 99 93 85</a>
+                </li>
+                <li>
+                    <a class="nav-link disabled">Mail : contact@herewegolf.fr</a>
+                </li>
+            </ul>
+            <ul class="m-4 nav" style="list-style-type:none;">
+                <li>
+                    <a title="Herewegolf sur facebook" href="https://www.facebook.com/herewegolf">
+                        <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path fill="none" d="M0 0h24v24H0z"/>
+                                <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a title="Herewegolf sur instagram" href="https://www.instagram.com/herewegolf/">
+                        <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"/><circle cx="16.806" cy="7.207" r="1.078"/><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"/></svg>    
+                    </a>
+                </li>
+            </ul>
+        </ul>
+        <p class="text-center">
+            2022 Herewegolf, website by stagiaire
+        </p>                   
+        
+    </footer>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</body>
+</html>
